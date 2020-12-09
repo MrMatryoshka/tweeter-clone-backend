@@ -2,7 +2,7 @@ import {body} from 'express-validator';
 
 export const registerValidations = [
     body('email', 'Ваведите E-mail').isEmail().withMessage('Неверный E-mail').isLength({
-        min:13,
+        min:9,
         max:50
     }).withMessage('Неверный E-mail'),
 
@@ -12,7 +12,7 @@ export const registerValidations = [
     }).withMessage('Неверный имя'),
 
     body('username', 'Укажите логин ').isString().withMessage('Неверный логин').isLength({
-        min:10,
+        min:2,
         max:50
     }).withMessage('Неверный логин'),
 
