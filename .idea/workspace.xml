@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58a9bc9f-55d2-486d-bfb8-9d3eefa3ddac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/mailer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/genirateHash.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/sendMaill.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlles/UserController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/controlles/UserController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/db.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/db.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/UserModule.ts" beforeDir="false" afterPath="$PROJECT_DIR$/modules/UserModule.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vallidations/register.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vallidations/register.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +90,7 @@
       <workItem from="1607434763418" duration="999000" />
       <workItem from="1607435962723" duration="107000" />
       <workItem from="1607436083278" duration="2813000" />
-      <workItem from="1607439693639" duration="353000" />
+      <workItem from="1607439693639" duration="687000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607076152920</created>
@@ -111,15 +99,34 @@
       <option name="project" value="LOCAL" />
       <updated>1607076152920</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="инит + добавление пользователя + иницилизация полльзователя backend">
+      <created>1607494355873</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607494355873</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="инит + добавление пользователя + иницилизация полльзователя backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="инит + добавление пользователя + иницилизация полльзователя backend" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="440" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607087365235">
@@ -130,30 +137,35 @@
       <screen x="0" y="23" width="1440" height="799" />
     </state>
     <state x="426" y="135" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.799@0.23.1440.799" timestamp="1607086091318" />
-    <state x="263" y="23" key="CommitChangelistDialog2" timestamp="1607076152332">
-      <screen x="0" y="23" width="1440" height="799" />
+    <state x="279" y="23" key="CommitChangelistDialog2" timestamp="1607494355389">
+      <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state x="263" y="23" key="CommitChangelistDialog2/0.23.1440.799@0.23.1440.799" timestamp="1607076152331" />
-    <state width="1318" height="266" key="GridCell.Tab.0.bottom" timestamp="1607439685769">
+    <state x="279" y="23" key="CommitChangelistDialog2/0.23.1440.804@0.23.1440.804" timestamp="1607494355389" />
+    <state width="1318" height="71" key="GridCell.Tab.0.bottom" timestamp="1607494364791">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state width="1370" height="196" key="GridCell.Tab.0.bottom/0.23.1440.799@0.23.1440.799" timestamp="1607145104803" />
-    <state width="1318" height="266" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1607439685769" />
-    <state width="1318" height="266" key="GridCell.Tab.0.center" timestamp="1607439685768">
+    <state width="1318" height="71" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1607494364791" />
+    <state width="1318" height="71" key="GridCell.Tab.0.center" timestamp="1607494364790">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state width="1370" height="196" key="GridCell.Tab.0.center/0.23.1440.799@0.23.1440.799" timestamp="1607145104802" />
-    <state width="1318" height="266" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1607439685768" />
-    <state width="1318" height="266" key="GridCell.Tab.0.left" timestamp="1607439685767">
+    <state width="1318" height="71" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1607494364790" />
+    <state width="1318" height="71" key="GridCell.Tab.0.left" timestamp="1607494364789">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state width="1370" height="196" key="GridCell.Tab.0.left/0.23.1440.799@0.23.1440.799" timestamp="1607145104801" />
-    <state width="1318" height="266" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1607439685767" />
-    <state width="1318" height="266" key="GridCell.Tab.0.right" timestamp="1607439685768">
+    <state width="1318" height="71" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1607494364789" />
+    <state width="1318" height="71" key="GridCell.Tab.0.right" timestamp="1607494364790">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state width="1370" height="196" key="GridCell.Tab.0.right/0.23.1440.799@0.23.1440.799" timestamp="1607145104803" />
-    <state width="1318" height="266" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1607439685768" />
+    <state width="1318" height="71" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1607494364790" />
+    <state x="309" y="165" key="Vcs.Push.Dialog.v2" timestamp="1607494481258">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="309" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.804@0.23.1440.804" timestamp="1607494481258" />
     <state x="359" y="151" width="670" height="676" key="search.everywhere.popup" timestamp="1607419636109">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
