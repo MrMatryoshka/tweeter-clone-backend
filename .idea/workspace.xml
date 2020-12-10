@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="58a9bc9f-55d2-486d-bfb8-9d3eefa3ddac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/passport.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controlles/UserController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/controlles/UserController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/UserModule.ts" beforeDir="false" afterPath="$PROJECT_DIR$/modules/UserModule.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,6 +26,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1l6eBYcRb36uRVWQwQAt4RatbHz" />
@@ -71,6 +92,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_CLASSES,SHOW_FIELDS" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -90,7 +114,8 @@
       <workItem from="1607434763418" duration="999000" />
       <workItem from="1607435962723" duration="107000" />
       <workItem from="1607436083278" duration="2813000" />
-      <workItem from="1607439693639" duration="687000" />
+      <workItem from="1607439693639" duration="10945000" />
+      <workItem from="1607611159309" duration="3472000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607076152920</created>
@@ -106,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607494355873</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="инит + добавление пользователя + иницилизация полльзователя backend">
+      <created>1607494564245</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607494564245</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +154,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
@@ -137,35 +170,35 @@
       <screen x="0" y="23" width="1440" height="799" />
     </state>
     <state x="426" y="135" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.799@0.23.1440.799" timestamp="1607086091318" />
-    <state x="279" y="23" key="CommitChangelistDialog2" timestamp="1607494355389">
+    <state x="279" y="23" key="CommitChangelistDialog2" timestamp="1607494564029">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state x="263" y="23" key="CommitChangelistDialog2/0.23.1440.799@0.23.1440.799" timestamp="1607076152331" />
-    <state x="279" y="23" key="CommitChangelistDialog2/0.23.1440.804@0.23.1440.804" timestamp="1607494355389" />
-    <state width="1318" height="71" key="GridCell.Tab.0.bottom" timestamp="1607494364791">
+    <state x="279" y="23" key="CommitChangelistDialog2/0.23.1440.804@0.23.1440.804" timestamp="1607494564029" />
+    <state width="1318" height="140" key="GridCell.Tab.0.bottom" timestamp="1607617643153">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state width="1370" height="196" key="GridCell.Tab.0.bottom/0.23.1440.799@0.23.1440.799" timestamp="1607145104803" />
-    <state width="1318" height="71" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1607494364791" />
-    <state width="1318" height="71" key="GridCell.Tab.0.center" timestamp="1607494364790">
+    <state width="1318" height="140" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1607617643153" />
+    <state width="1318" height="140" key="GridCell.Tab.0.center" timestamp="1607617643151">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state width="1370" height="196" key="GridCell.Tab.0.center/0.23.1440.799@0.23.1440.799" timestamp="1607145104802" />
-    <state width="1318" height="71" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1607494364790" />
-    <state width="1318" height="71" key="GridCell.Tab.0.left" timestamp="1607494364789">
+    <state width="1318" height="140" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1607617643151" />
+    <state width="1318" height="140" key="GridCell.Tab.0.left" timestamp="1607617643150">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state width="1370" height="196" key="GridCell.Tab.0.left/0.23.1440.799@0.23.1440.799" timestamp="1607145104801" />
-    <state width="1318" height="71" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1607494364789" />
-    <state width="1318" height="71" key="GridCell.Tab.0.right" timestamp="1607494364790">
+    <state width="1318" height="140" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1607617643150" />
+    <state width="1318" height="140" key="GridCell.Tab.0.right" timestamp="1607617643152">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state width="1370" height="196" key="GridCell.Tab.0.right/0.23.1440.799@0.23.1440.799" timestamp="1607145104803" />
-    <state width="1318" height="71" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1607494364790" />
-    <state x="309" y="165" key="Vcs.Push.Dialog.v2" timestamp="1607494481258">
+    <state width="1318" height="140" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1607617643152" />
+    <state x="309" y="165" key="Vcs.Push.Dialog.v2" timestamp="1607494647616">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
-    <state x="309" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.804@0.23.1440.804" timestamp="1607494481258" />
+    <state x="309" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.804@0.23.1440.804" timestamp="1607494647616" />
     <state x="359" y="151" width="670" height="676" key="search.everywhere.popup" timestamp="1607419636109">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
