@@ -47,7 +47,10 @@ const UserSchema = new Schema({
     location: String,
     about: String,
     website: String,
+}, {
+    timestamps: true
 });
+
 
 UserSchema.set('toJSON', {
     transform: function (_: any, obj: { password: any; confirmHash: any; }) {

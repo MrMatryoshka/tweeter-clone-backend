@@ -1,12 +1,10 @@
 import express from 'express'
-import mongoose from 'mongoose'
+import {isValidationId} from "../utils/isValidObjectId";
 import jwt from 'jsonwebtoken'
 import {UserModel, UserModelDocumentInterface, UserModelInterface} from "../modules/UserModule";
 import {validationResult} from "express-validator";
 import {generateMD5} from "../utils/genirateHash";
 import {sendEmail} from "../utils/sendMaill";
-
-const isValidId = mongoose.Types.ObjectId.isValid
 
 class UserController {
     async index(_: any, res: express.Response): Promise<void> {
@@ -30,7 +28,7 @@ class UserController {
         try {
             const userId = req.params.id
 
-            if (!isValidId(userId)) {
+            if (!isValidationId(userId)) {
                 res.status(400).json({
                     status: 'error',
                     massage: 'НЕ верный запрос !!!'
@@ -142,12 +140,13 @@ class UserController {
 
     async  afterLogin( req : express.Request , res: express.Response) : Promise<void> {
         try {
-            const user = req.user ? (req.user as UserModelDocumentInterface).toJSON() : undefined
+            const user = req.user ?  (req.user as UserModelDocumentInterface).toJSON() : undefined
             res.json({
                 status: 'success',
                 data: {
                     ...user,
-                    token: jwt.sign({data: req.user}, process.env.SECRET_KEY || '123', {expiresIn: '30d'})
+                    token: jwt.sign({data: req.user}, process.env.SECRET_KEY || '123',
+                        {expiresIn: '30 days'})
                 }
             })
         } catch (error) {
@@ -157,6 +156,7 @@ class UserController {
             })
         }
     }
+
     async  getUserInfo( req : express.Request , res: express.Response) : Promise<void> {
         try {
             const user = req.user ? (req.user as UserModelDocumentInterface).toJSON() : undefined
