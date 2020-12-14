@@ -8,7 +8,10 @@ import {validationResult} from "express-validator";
 class TweetsController {
     async index(_: any, res: express.Response): Promise<void> {
         try {
-            const tweets = await TweetsModel.find({}).exec()
+            const tweets = await TweetsModel.find({})
+                .populate('user')
+                .sort({'createdAt': '-1'} )
+                .exec()
 
             res.json({
                 status: 'success',
@@ -33,7 +36,7 @@ class TweetsController {
                     massage: 'НЕ верный запрос !!!'
                 })
             }
-            const tweet = await TweetsModel.findById(tweetId).exec()
+            const tweet = await TweetsModel.findById(tweetId).populate('user').exec()
 
             if (!tweet) {
                 res.status(404).json({
