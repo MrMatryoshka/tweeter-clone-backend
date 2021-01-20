@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 mongoose.Promise = Promise;
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://dbUser:dbUser2@cluster0.ep5yx.mongodb.net/tweeter-clone?retryWrites=true&w=majority', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://Kir:4QtkL9O5ciztLvnd@cluster0.ep5yx.mongodb.net/tweeter-clone?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true,
